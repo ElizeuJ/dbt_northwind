@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: northwind
+    database: curso-etl-101  
+    schema: erp_northwind  
+    tables:
+      - name: orders
+      - name: customers
+      - name: orders_details
+
+ 
